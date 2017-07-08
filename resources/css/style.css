@@ -1,0 +1,43 @@
+* {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 80px;
+  font-family: Garamond;
+  }
+
+  header .apa-banner img {
+    display: inline-block;
+    align-items: stretch;
+    padding-top: 350px;
+    width: 100%;
+    height: auto;
+        }
+
+header h1 {
+  display: flex;
+  color: darkgoldenrod;
+  align-items: center;
+
+}
+
+header h3 {
+  color: darkgoldenrod;
+  position: relative;
+}
+
+nav {
+  display: inline-flex;
+  padding-top: 450px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 50px;
+}
